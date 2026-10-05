@@ -8,6 +8,8 @@ débats présidentiels américains, avec [MAMKit](https://github.com/nlp-unibo/m
 - Entrées : texte, audio, ou texte + audio. Découpage officiel : entraînement sur MM-USED-Fallacy, test sur les deux débats de 2024.
 - Chaque configuration est entraînée avec 3 graines (42, 2024, 666) ; les comparaisons reposent sur un bootstrap apparié sur le test.
 
+**Rapport** : [`docs/rapport.pdf`](docs/rapport.pdf) (analyse critique, protocole, résultats et discussion).
+
 ## Résultats
 
 Baseline Transformer (RoBERTa / WavLM, fusion tardive), moyenne ± écart-type sur 3 graines.
