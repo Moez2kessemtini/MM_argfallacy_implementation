@@ -1,0 +1,7 @@
+# MAMKit at the commit used for the experiments (pulls torch 2.3, lightning, transformers, ...)
+mamkit @ git+https://github.com/nlp-unibo/mamkit.git@ff2b35e4c3f21653f4d55e9d65db12c3ce9c32d2
+
+scikit-learn
+scipy
+matplotlib
+yt-dlp[default]

@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# data, features, outputs
+data/
+cache/
+results/
+logs/
+lightning_logs/
+data_exploration/outputs/
+*.ckpt
+*.pt
