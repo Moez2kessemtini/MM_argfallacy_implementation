@@ -42,7 +42,7 @@ Un élève audio (WavLM gelé + encodeur Transformer) apprend, sans étiquettes,
 l'espace d'un enseignant texte (RoBERTa fine-tuné sur les sophismes) sur toutes les phrases alignées des débats
 d'entraînement ; à l'inférence, il n'utilise que l'audio. La perte par file de prototypes s'inspire de COMODO
 ([Chen et al., 2025](https://arxiv.org/abs/2503.07259)). La méthode est évaluée face à plusieurs contrôles
-(features brutes, élève supervisé, enseignant générique, efficacité en étiquettes) ; voir le rapport, section 6.6.
+(features brutes, élève supervisé, enseignant générique, efficacité en étiquettes).
 
 ```bash
 python -m src.experiments.distill --teacher-temp 0.02 --label-fractions 0.1 0.25 0.5 --seeds 42 2024 666
