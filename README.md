@@ -1,6 +1,6 @@
 # Détection et classification multimodales de sophismes argumentatifs
 
-Reproduction et extensions des baselines du shared task **MM-ArgFallacy2025**
+Ce répo constitute la reproduction et l'extensions des baselines du shared task **MM-ArgFallacy2025**
 ([Mancini et al., ArgMining @ ACL 2025](https://aclanthology.org/2025.argmining-1.35/)) sur les
 débats présidentiels américains, avec [MAMKit](https://github.com/nlp-unibo/mamkit), ainsi qu'une
 **méthode proposée de distillation intermodale texte → audio**.
